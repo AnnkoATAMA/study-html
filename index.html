@@ -20,9 +20,14 @@
             </ul>
         </header>
 
-        <h1 class="head_h1 slide-bottom show">推し紹介</h1>
-        <h2 class="head_h2 slide-bottom show">競馬</h2>
+        <h2 class="head_h2 slide-bottom show">推し紹介</h2>
+        <div class="head_title">
+          <h1 class="head_h1 slide-bottom show">競馬</h1>
+          <div class="div_border slide-bottom show">
+        </div>
+
         <h3 class="head_h3 slide-bottom show">競馬の魅力</h3>
+        <p class="head_p slide-bottom show">賭けるだけなんてもったいない</p>
     </div>
     <div class="main">
         <div class="sidebar">
@@ -36,11 +41,13 @@
         </div>
         <div class="contents">
             <div>
+
                 <section id="content">
                     <div class="title">
-                        <h2>競馬とは</h2>
+                        <h2>競馬とは</h2> 
                     </div>
-                    <div class="card">
+                    <div class="div_border_sec"></div>
+                    <div class="card slide-bottom show">
                         <img src="./assets/ronshan.jpg" class="card_img">
                         <div class="card_text">
                             <h1>
@@ -58,7 +65,7 @@
                               </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card slide-bottom show">
                         <img src="./assets/dar.jpg" class="card_img">
                         <div class="card_text">
                             <h1>
@@ -71,14 +78,14 @@
                               集う人が多い大人気のレース。
                           </p>
                         </div>
-
                     </div>
-                    <div>
-
-                    </div>
-
                 </section>
+
                 <section id="myfave">
+                  <div class="title">
+                    <h2>最強にかわいい推し馬</h2> 
+                </div>
+                <div class="div_border_sec"></div>
                     <div class="c-carousel">
                         <input class="c-carousel__activator-main" type="radio" checked id="carousel-main-1" name="carousel-main">
                         <input class="c-carousel__activator-main" type="radio" id="carousel-main-2" name="carousel-main">
@@ -87,27 +94,28 @@
                           <div class="c-carousel__main-control">
                             <div class="c-carousel__main-control-item">
                               <label class="c-carousel__btn-next-main" for="carousel-main-2">
-                                <img class="c-image-arrow" src="./ico_next_01.svg" alt=""/>
+                                <i class="c-image-arrow las la-angle-right"></i>
                               </label>
                             </div>
                             <div class="c-carousel__main-control-item">
                               <label class="c-carousel__btn-prev-main" for="carousel-main-1">
-                                <img class="c-image-arrow" src="./ico_prev_01.svg" alt=""/>
+                                <i class="c-image-arrow las la-angle-left"></i>
                               </label>
                               <label class="c-carousel__btn-next-main" for="carousel-main-3">
-                                <img class="c-image-arrow" src="./ico_next_01.svg" alt=""/>
+                                <i class="c-image-arrow las la-angle-right"></i>
                               </label>
                             </div>
                             <div class="c-carousel__main-control-item">
                               <label class="c-carousel__btn-prev-main" for="carousel-main-2">
-                                <img class="c-image-arrow" src="./ico_prev_01.svg" alt=""/>
+                                <i class="c-image-arrow las la-angle-left"></i>
                               </label>
                             </div>
                           </div>
                           <div class="c-carousel__main-track">
                             <div class="c-carousel__main-item">
                               <img class="c-carousel__main-image" src="./assets/gentil.jpg" alt=""/>
-                              <p>馬名 : ジェンティルドンナ
+                              <p class="c_card_text">
+                                馬名 : ジェンティルドンナ
                                 <br>
                                 主な戦績 : 桜花賞、優駿牝馬(オークス)、秋華賞、
                                 <br>
@@ -118,7 +126,8 @@
                             </div>
                             <div class="c-carousel__main-item">
                               <img class="c-carousel__main-image" src="./assets/geral.jpg" alt=""/>
-                              <p>馬名 : ジェラルディーナ
+                              <p class="c_card_text">
+                                馬名 : ジェラルディーナ
                                 <br>
                                 主な戦績 : エリザベス女王杯
                                 <br>
@@ -127,7 +136,8 @@
                             </div>
                             <div class="c-carousel__main-item">
                               <img class="c-carousel__main-image" src="./assets/do.jpg" alt=""/>
-                              <p>馬名 : ドウデュース
+                              <p class="c_card_text">
+                                馬名 : ドウデュース
                                 <br>
                                 主な戦績 : 朝日フューチャリティーS、東京優駿(ダービー)、有馬記念
                                 <br>
@@ -138,12 +148,19 @@
                         </div>
                       </div>
                 </section>
-                <section>
-                </section>
             </div>
         </div>
     </div>
-
+    <footer>
+      <div>
+        <p class="footer_text">松原拓己  2306070029</p>
+        <ul class="footer_list">
+          <li><a href="#top">top</a></li>
+          <li><a href="#content">content</a></li>
+          <li><a href="#myfave">myfave</a></li>
+        </ul>
+      </div>
+    </footer>
 
     <script>
         $(function(){
